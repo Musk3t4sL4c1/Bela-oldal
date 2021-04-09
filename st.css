@@ -1,9 +1,13 @@
 body {
-    background-image: url(pics/bgi2.1.jpg);
+    background-image: url(pics/back2.png);
 }   .wc {
     text-align: center;
     color:rgb(210, 160, 49);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #7289DA;
+    border-radius: 18px;
+    margin:30px 10px;
+    padding: 30px;
 }   .alc {
     color:rgb(210, 160, 49);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -16,19 +20,24 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     /* Navbar's css*/
 }   .topnav {
-     background: darkcyan;
+     background: #000000;
      overflow: hidden;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 8px;
 }   .topnav a {
    float: left;
-   color: rgb(210, 160, 49);
+   color: #7289DA;
    text-align: center;
    padding: 14px 16px;
    text-decoration: lightseagreen;
    font-size: 24px;
+   transition-duration: 0.4s;
+   font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+   font-size: 26px;
 }   .topnav a:hover {
-    background-color: rgb(210, 160, 49);
-    color: darkcyan;
+    background-color: #7289DA;
+    color: #000000;
+
 }   
     /*end of navbar's css*/ 
     
